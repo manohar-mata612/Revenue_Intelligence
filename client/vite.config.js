@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://revenue-intelligence-364307352476.us-east1.run.app',
         changeOrigin: true,
       }
     }

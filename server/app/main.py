@@ -6,7 +6,7 @@ app = FastAPI(title="Revenue Intelligence API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://revenue-intelligence-frontend-430431660680.us-central1.run.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
